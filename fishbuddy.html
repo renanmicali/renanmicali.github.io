@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rkm dev - Fish Buddy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../styles/app.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">rkm dev Portfolio</a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Full CRUD <strong>Fish Buddy Yelp</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">find the best fishing spots.</p>
+        <img src="/styles/fishbuddytitle.jpg" alt="image of project" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>App created with the intention of simulate Yelp but for fish lovers.</p>
+        <p>Login details : </p>
+        <p>Login = user-unkown</p>
+        <p>Password = uu1202</p>
+        <p>Feel free to create your own as well.</p>
+        <p><a href="http://serene-shore-44857.herokuapp.com/"> <strong>Go to Web site</strong> </a></p>
+        <p><a href="https://github.com/renanmicali/Fish-Buddy-"> <strong>Go to Github repo</strong> </a></p>
+        <img src="/styles/coding-fishbuddy.png" alt="">
+        <p>App was created using Javascript, express, NODE.js, BootstrapV5, MongoDB database (no-SQL) and Heroku for
+            release.</p>
+        <p>NPM packages used vary from ejs-mate, connect-flash, possport and mapbox to many others.</p>
+        <p>Heavier security is still system is still to be implemented and responsive design is in construction.</p>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:renanmicali@icloud.com" class="footer__link">renanmicali@icloud.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/renan-kozuka-micali-3892a1212/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/renanmicali">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
